@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="lab5">
+<head >
+    <meta charset="utf-8">
+    <title>Register Page Lab5</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body ng-controller="registerController">
+    <div id="registerContainer">
+        <h1>Register:</h1>
+        <div class="center">
+            <input type="text" id="txt_userid" placeholder="Enter Username"/>
+        </div>
+        <div class="center">
+            <input type="password" id="txt_userpass" placeholder="Enter Password"/>
+        </div>
+        <div class="centerButton">
+            <button id="btn_register" ng-click="register()" class="centerButton">Register</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://code.angularjs.org/1.6.4/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

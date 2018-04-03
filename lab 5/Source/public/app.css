@@ -1,0 +1,87 @@
+/* app css stylesheet */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 0 0 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#LoginContainer, #registerLinkContainer {
+    width: 150px;
+    height: auto;
+    margin: auto;
+    background: grey;
+    padding: 3px;
+}
+
+#registerContainer {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    background: grey;
+    padding: 3px;
+}
+
+#homeContainer, #homeDeleteContainer {
+    width: 280px;
+    height: auto;
+    margin: auto;
+    background: grey;
+    padding: 3px;
+}
+
+#homeContainer h1 {
+    margin: 0 0 2px;
+}
+
+#homeDeleteContainer h1, h2{
+    margin: 0 0 2px;
+}
+
+a{
+    color: aqua;
+}
+
+a:link{
+    color: lawngreen;
+}
+
+a:visited{
+    color: yellow;
+}
+
+input {
+    margin: 2px;
+}
+
+.center {
+    width: 145px;
+    height: auto;
+    margin: auto;
+}
+
+.centerButton {
+    width: 100px;
+    height: auto;
+    margin: auto;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="lab5">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page Lab5</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body ng-controller="homeCtrl" ng-init="init()">
+    <div id="homeContainer">
+        <h1>User Details:</h1>
+        <div class="center">
+            <input type="text" id="txt_color" placeholder="Enter Favorite Color"/>
+            <input type="text" id="txt_height" placeholder="Enter Height in Feet"/>
+            <input type="text" id="txt_weight" placeholder="Enter Weight in Pounds"/>
+        </div>
+        <div  class="centerButton">
+            <button id="btn_update" ng-click="update()">Update Info</button>
+        </div>
+    </div>
+
+    <div id="homeDeleteContainer">
+        <h1>User Details:</h1>
+        <div id="homeItems">
+            <h2>{{user}}</h2>
+        </div>
+        <div id="homeColor">
+            <h2>{{color}}</h2>
+        </div>
+        <div id="homeHeight">
+            <h2>{{height}}</h2>
+        </div>
+        <div id="homeWeight">
+            <h2>{{weight}}</h2>
+        </div>
+        <div id="homeAmazon">
+            <h2>{{amazon}}</h2>
+        </div>
+        <div class="centerButton">
+            <button id="btn_delete" ng-click="delete()">Delete Info</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://code.angularjs.org/1.6.4/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
